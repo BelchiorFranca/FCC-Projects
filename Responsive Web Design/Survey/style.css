@@ -1,0 +1,73 @@
+#title{
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 40px;
+  
+}
+#box{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:40px;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-radius:10px;
+
+}
+
+#description{
+    display:inline;
+    text-align: center;
+    margin-left: 100px;
+   
+}
+
+body{
+    background-color: rgb(204, 157, 245);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 350;
+    
+}
+
+#survey-form{
+    margin-left: 40px;
+    
+}
+
+#name,#email,#number,#dropdown{
+    width:90%;
+    border: 1px solid;
+    border-radius : 0.25rem;
+    height: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-top:5px;
+}
+
+#name-label,#email-label,#number-label{
+    margin-bottom: 10px;
+}
+.field{
+    padding-top:30px;
+}
+.greyoption{
+    color:gray
+}
+
+#area{
+    width:90%;
+    height:150px;
+    margin-bottom: 50px;
+}
+#submit{
+    margin-left:170px;
+    font-family: 'Poppins',sans-serif;
+    border:1px solid;
+    border-radius:0.25rem;
+    background-color: rgb(51, 48, 48);
+    color:white;
+    height:40px;
+    width:90px;
+}

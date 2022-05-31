@@ -12,18 +12,43 @@
         <nav id ="nav-bar">  
             <img id ="header-img" src="boxing.png" alt="logo das luvas de boxe">
             <li id = "menu">
-                <ul class ="nav-link"><a href="/">Product</a></ul>
-                <ul class ="nav-link"><a href="/">How it Work</a></ul>
-                <ul class ="nav-link"><a href="/">Pricing</a></ul>
+                <ul ><a class ="nav-link" href="#form">Product</a></ul>
+                <ul ><a class ="nav-link" href="#video">How it Work</a></ul>
+                <ul><a  class ="nav-link" href="#pricing">Pricing</a></ul>
             </li>
         
         </nav>
     </header>
-        <form id="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
             <label>Be the first to try our gloves!</label><br>
-            <input id ="email" type="email" placeholder="Enter your Email address"/>
+            <input id ="email" type="email" name="email" placeholder="Enter your Email address"/>
+            <input id="submit" type="submit" value="GET STARTED !">
 
         </form>
+
+        <div>
+            <h2 class="work">How does it Work ?</h2>
+            <p class="description">it's simple, you put the gloves and your punch will be faster than the light and you will hit like a truck</p>
+            <iframe id="video" width="420" height="315"
+            src="https://www.youtube.com/embed/XpPqZRYAuCM">
+            </iframe>
+        </div>
+
+        <section id="pricing">
+            <div class="gloves">
+                <h1>Fast Puncher Gloves</h1>
+                <h1 class="price">300$</h1>
+            </div>
+            <div class="gloves">
+                <h1>Heavy hitter Gloves</h1>
+                <h1 class="price">400$</h1>
+            </div>
+            <div class="gloves">
+                <h1 style="padding-left:15px ;">Boxing God Gloves</h1>
+                <h1 class="price">prove yourself worthy</h1>
+            </div>
+
+        </section>
   
 </body>
 </html>
